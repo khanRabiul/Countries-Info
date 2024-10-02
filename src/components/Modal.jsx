@@ -25,7 +25,7 @@ const Modal = ({ isOpen, onClose, country }) => {
           <div className="flex justify-between items-center">
             <div>
               <h2 className="text-2xl text-slate-800 font">
-                <strong>Name:</strong> {country?.name?.common}
+                <strong>Official Name:</strong> {country?.name?.official}
               </h2>
             </div>
             {/* Close button */}
